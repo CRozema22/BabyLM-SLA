@@ -11,7 +11,9 @@ Date: August 2024
 ### Data
 [BabyPreprocessing.ipynb](BabyPreprocessing.ipynb) cleans and preprocesses the BabyLM 10M dataset by creating sequences
 
-[BabyDev.ipynb](BabyDev.ipynb) prepares the preprocessed BabyLM 10M dataset for unsupervised POS-tagging by reformatting. POS-tagging is done using Linux.
+[BabyDev.ipynb](BabyDev.ipynb) prepares the preprocessed BabyLM 10M dataset for unsupervised POS-tagging by reformatting. POS-tagging is done using [Anchor](https://github.com/karlstratos/anchor).
+
+[data/prep_combined.train](data/prep_combined.train) contains the preprocessed POS-tagged 10M dataset.
 
 [BabyDifficultyScoring.ipynb](BabyDifficultyScoring.ipynb) takes the POS-tagged data and scores and ranks this data for all models.
 
