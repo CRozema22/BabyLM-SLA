@@ -13,7 +13,7 @@ Date: August 2024
 
 [BabyDev.ipynb](BabyDev.ipynb) prepares the preprocessed BabyLM 10M dataset for unsupervised POS-tagging by reformatting. POS-tagging is done using Linux.
 
-[BabyDifficultyScoring.ipynb](BabyDifficultyScoring.ipynb) takes the POS-tagged data and scores and ranks this data for all models. These datasets are also available in /data
+[BabyDifficultyScoring.ipynb](BabyDifficultyScoring.ipynb) takes the POS-tagged data and scores and ranks this data for all models.
 
 [Levels_BabyDifficultyScoring.ipynb](Levels_BabyDifficultyScoring.ipynb) can also be used to make a level-based curriculum, rather than based on difficulty scores. It largely overlaps with BabyDifficultyScoring.ipynb but only saves data for a SLA-based model.
 
